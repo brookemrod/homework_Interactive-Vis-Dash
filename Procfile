@@ -1,0 +1,1 @@
+web: gunicorn -b :$PORT belly_button.app:app
